@@ -231,26 +231,6 @@ Library.CustomTheme.Borders    = Color3.fromRGB(35, 35, 35)
 Library.ApplyCustomTheme()
 
 ```
-
----
-
-### 5. Diagnostics & Environment Info
-
-Vanta UI includes helper methods to retrieve details about the game environment:
-
-```lua
--- Get environment information table
-local info = Library.GetEnvironmentInfo()
-print("Game Name:", info.Name)
-print("Place ID:", info.PlaceId)
-print("Universe ID:", info.UniverseId)
-
--- Process a query string
-local response = Library.HandleDiagnosticQuery("what game am i in")
-print(response) -- Outputs formatted string with game name and IDs
-
-```
-
 ---
 
 ## 🎨 Example Full Script Structure
