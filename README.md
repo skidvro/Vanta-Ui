@@ -234,27 +234,6 @@ Library.ApplyCustomTheme()
 
 ---
 
-### 4. Configuration System
-
-Configs are saved in JSON format under the `vanta/` directory in your executor's workspace folder.
-
-```lua
--- Save current UI state to slot "default"
-Library.SaveConfig("default")
-
--- Load saved config slot "default"
-Library.LoadConfig("default")
-
--- Get list of all available saved configs
-local slots = Library.GetConfigSlots()
-for _, name in ipairs(slots) do
-    print("Found config:", name)
-end
-
-```
-
----
-
 ### 5. Diagnostics & Environment Info
 
 Vanta UI includes helper methods to retrieve details about the game environment:
