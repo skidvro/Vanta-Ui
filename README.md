@@ -10,35 +10,6 @@
 
 ---
 
-## ✨ Features
-
-* **Drawing-API Driven**: Renders cleanly without relying on `ScreenGui` instances.
-* **Built-in Theme Manager**:
-* Includes presets: `Neverlose`, `Skeet`, `OneTap`, `Vanta Red`, `Vanta Purple`, `Vanta Pink`.
-* Full **Custom Theme** support (`Background`, `Accent`, `Text`, `Borders`).
-* Automatic JSON serialization/deserialization to `vanta/themes/`.
-
-
-* **Config & Persistence System**:
-* Save and load configurations to disk (`vanta/<slot>.json`).
-* Automatic session saving (`vanta/settings.json`).
-
-
-* **Interactive UI Components**:
-* Toggles, Sliders, Dropdowns, Keybinds, Textboxes, Buttons, Panels, and Color Pickers.
-
-
-* **Notification Engine**:
-* Animated toast notifications supporting `info`, `success`, `warn`, and `error` styles.
-
-
-* **Environment & Game Diagnostics**:
-* Built-in game metadata query helper (`Library.HandleDiagnosticQuery`).
-
-
-
----
-
 ## 🚀 Quick Start
 
 ```lua
